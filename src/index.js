@@ -122,7 +122,7 @@ function verifyToken(req, res, next) {
 // });
 
 
-const port = 8000;
+const port = 5000;
 app.listen(port, () => {
     console.log('server running on Port: ${port}');
     
