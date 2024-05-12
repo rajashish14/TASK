@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const connect = mongoose.connect('mongodb+srv://ashishranjan1203:5ew3hCuNDeqN4WVV@cluster0.z8zlzpf.mongodb.net/data?retryWrites=true&w=majority&appName=Cluster0');
+// const dbURL = process.env.DB_URL;
+const connect = mongoose.connect("mongodb+srv://ashishranjan1203:5ew3hCuNDeqN4WVV@cluster0.z8zlzpf.mongodb.net/data?retryWrites=true&w=majority&appName=Cluster0");
 connect.then(() =>{
     console.log("MongooDB connected successfully");
 })
